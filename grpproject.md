@@ -60,7 +60,7 @@ git push origin branch-uwu
 
 ## merge
 
-Used to merge... the file changes between "checkpoints" (commits).
+Used to merge... the file changes between two branches"checkpoints" (commits).
 
 ## pull request
 

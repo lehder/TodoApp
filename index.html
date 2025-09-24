@@ -4,10 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <h1>Hello Lehder</h1>
-    <h2>Hello Amrit</h2>
+    <section class="container">
+      <h1 class="heading">Noroff Github Lesson</h1>
+      <div class="mainbody">
+        <h2 class="taskheading">Task</h2>
+        <h3>Do all the tasks</h3>
+        <ul class="tasklist">
+          <li>Create the repo in Github</li>
+          <li>
+            Create files:
+            <ul>
+              <li>index.html</li>
+              <li>style.css</li>
+              <li>script.js</li>
+              <li>Readme.me</li>
+            </ul>
+          </li>
+          <li>Make a changes and push it to the repo</li>
+        </ul>
+      </div>
+      <div class="formvalid">
+        <h1>Form validation</h1>
+        <form id="formvalid" class="form">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Enter your username"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Enter your age"
+          />
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div id="hereplace"></div>
+    </section>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
